@@ -20,8 +20,6 @@ install_if_not_exists "curl"
 install_if_not_exists "unzip"
 
 
-
-
 # Verificar se o Go está instalado
 if ! command -v go &> /dev/null; then
     echo "Go não está instalado. Instalando Go..."
